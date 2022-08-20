@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image uploading</title>
+        <link rel="icon" type="image/jpg" href="static/image_1.png">
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    </head>
+
+    <!-- <div class="page-header">
+        
+    </div> -->
+
+    <body>
+
+        <div class="myDiv">
+            <h1>
+                Neural Style Transfer
+            </h1>
+        </div>
+
+        {% if filenames %}
+                
+
+            <div class="images-container">
+
+                <div class="image">
+                    <div class="description">
+                        <h2>Content Image</h2>
+                        <p></p>
+                    </div>
+                    <img src="{{ url_for('display_image', filename = filenames[0]) }} "  alt = "Content Image" >
+                </div>
+                
+                <div class = "image">
+                    <div class="description">
+                        <h2>Style Image</h2>
+                        <p></p>
+                    </div>
+                    <img src="{{ url_for('display_image', filename = filenames[1]) }} "  alt = "Style Image" >
+                </div>
+
+
+            </div>
+
+
+            <div class="images-container result" >
+                <div class = "image">
+                    <div class="description">
+                        <h2>Final Image</h2>
+                        <p></p>
+                    </div>
+                    <img src="{{ url_for('display_image', filename = filenames[2]) }} "  alt = "Final Image" >
+                </div>
+            </div>
+            
+
+            
+        {% endif %}
+    </body>
+</html>

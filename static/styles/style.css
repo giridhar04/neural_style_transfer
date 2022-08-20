@@ -1,0 +1,103 @@
+
+body {
+        /* background-color: #b7f1f6; */
+        /* background-color: rgb(247, 202, 201) */
+        background-color:   #DDDDDD  ; 
+    }
+
+.images-container{
+    max-width: 1500px;
+    height: 700px;
+    margin: 20px auto; 
+    display: flex;
+    border: 2px solid #222;
+    background-color: rgb(230,230,250);
+}
+
+.result{
+    max-width: 900px;
+    height: 600px;
+    margin: 20px auto; 
+}
+
+
+.images-container img {
+    /* width: 600px;
+    height: 90%; */
+    object-fit: fill;
+    display: block;
+
+    max-width: 100%;
+    /* height: auto; */
+    height: 90%;
+    width: auto\9; /* ie8 */
+    
+    /* position: relative; */
+    /* top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%; */
+    /* transform: translate(-50%, -50%);  */
+}
+
+
+
+.images-container .image{
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+.images-container .image {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+
+.btn{
+    background-color: #36a0e6;
+    /* color: white; */
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 18px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border: none;
+    /* font-weight: bold; */
+    margin-left: 10px;
+}
+
+.btn1{
+    background-color: #20a632; /* Green */
+    margin-left: 15px;
+}
+
+.btn2{
+    cursor: auto;
+}
+
+.page-header {
+    background-image: url(../header_file.png);
+    /* background-size: cover; */
+	height: 260px;
+    max-width: auto;
+    position: relative;
+}
+
+
+.myDiv h1{
+
+    text-align: center;
+    color: #34568B;
+    height: 100px;
+    font-family: 'Dancing Script', cursive;         
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    /* opacity: 1; Firefox */
+  }
