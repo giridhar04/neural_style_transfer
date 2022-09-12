@@ -9,6 +9,8 @@
 ![](https://github.com/giridhar04/neural_style_transfer/blob/main/images/img_2.png)
 
 #### Few styled images :
+![](https://github.com/giridhar04/neural_style_transfer/blob/main/images/img_3.png)
+
 ![](https://github.com/giridhar04/neural_style_transfer/blob/main/images/c2_s1.png)
 
 ![](https://github.com/giridhar04/neural_style_transfer/blob/main/images/c2_s2.png)
